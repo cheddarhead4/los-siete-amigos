@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="DefaultName">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_8kIzoH-xEeKmhvn8cyNh1Q" name="Grunt"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DgvZYH-yEeKmhvn8cyNh1Q" name="Package1">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_EI6MoH-yEeKmhvn8cyNh1Q" name="UseCase1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XxcScH-yEeKmhvn8cyNh1Q" name="UseCase1"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZHEBkH-yEeKmhvn8cyNh1Q" name="A_&lt;actor1>_&lt;useCase1>" memberEnd="_ZHEooH-yEeKmhvn8cyNh1Q _ZHEoo3-yEeKmhvn8cyNh1Q">
+      <ownedEnd xmi:id="_ZHEooH-yEeKmhvn8cyNh1Q" name="actor1" type="_8kIzoH-xEeKmhvn8cyNh1Q" association="_ZHEBkH-yEeKmhvn8cyNh1Q">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZHEooX-yEeKmhvn8cyNh1Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZHEoon-yEeKmhvn8cyNh1Q" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ZHEoo3-yEeKmhvn8cyNh1Q" name="useCase1" type="_EI6MoH-yEeKmhvn8cyNh1Q" association="_ZHEBkH-yEeKmhvn8cyNh1Q">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZHEopH-yEeKmhvn8cyNh1Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZHEopX-yEeKmhvn8cyNh1Q" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4r6vcH-yEeKmhvn8cyNh1Q" name="UseCase1"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_9BYT0H-yEeKmhvn8cyNh1Q" name="Elite"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_AEth8H-zEeKmhvn8cyNh1Q" name="Prophet"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vqK5wH_AEeKXgIO5FbxCUw" name="ClockInOut">
+      <extend xmi:id="_E9HBBn_DEeKXgIO5FbxCUw" name="Extend1" extendedCase="_MHf2AH_BEeKXgIO5FbxCUw" extensionLocation="_E80tIH_DEeKXgIO5FbxCUw">
+        <condition xmi:id="_E9HBB3_DEeKXgIO5FbxCUw" constrainedElement="_E9HBBn_DEeKXgIO5FbxCUw">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_E9HBCH_DEeKXgIO5FbxCUw">
+            <body>User wishes to party</body>
+          </specification>
+        </condition>
+      </extend>
+      <extensionPoint xmi:id="_NBbAQH_EEeKXgIO5FbxCUw" name="1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wDc8cn_AEeKXgIO5FbxCUw" name="Send Notification">
+      <include xmi:id="_vYPxZH_CEeKXgIO5FbxCUw" name="Include1" addition="_wY0Icn_AEeKXgIO5FbxCUw"/>
+      <include xmi:id="_KFvAU3_GEeKXgIO5FbxCUw" name="Include2" addition="_L_GvAH_BEeKXgIO5FbxCUw"/>
+      <include xmi:id="_Klgsk3_GEeKXgIO5FbxCUw" name="Include3" addition="_Lz2hQH_BEeKXgIO5FbxCUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wY0Icn_AEeKXgIO5FbxCUw" name="ReviewTimesheets">
+      <extend xmi:id="_2TdQAH_CEeKXgIO5FbxCUw" name="Extend1" extendedCase="_Lz2hQH_BEeKXgIO5FbxCUw" extensionLocation="__a4HgH_CEeKXgIO5FbxCUw">
+        <condition xmi:id="_A-daIH_DEeKXgIO5FbxCUw" constrainedElement="_2TdQAH_CEeKXgIO5FbxCUw">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_A-daIX_DEeKXgIO5FbxCUw">
+            <body>User requests VacaSick</body>
+          </specification>
+        </condition>
+      </extend>
+      <extensionPoint xmi:id="_Q1AmoH_EEeKXgIO5FbxCUw" name="2"/>
+      <extensionPoint xmi:id="_4tGgkH_FEeKXgIO5FbxCUw" name="3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KpQ9cH_BEeKXgIO5FbxCUw" name="ModifyUser">
+      <ownedUseCase xmi:id="_KzkI8H_BEeKXgIO5FbxCUw" name="ClockInOut"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LnKwIH_BEeKXgIO5FbxCUw" name="AddUser">
+      <include xmi:id="_q1c7o3_CEeKXgIO5FbxCUw" name="Include1" addition="_KpQ9cH_BEeKXgIO5FbxCUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Lz2hQH_BEeKXgIO5FbxCUw" name="ApproveVacaSick">
+      <include xmi:id="_Nheuc3_GEeKXgIO5FbxCUw" name="Include1" addition="_wDc8cn_AEeKXgIO5FbxCUw"/>
+      <extend xmi:id="_Q1S6hH_EEeKXgIO5FbxCUw" name="Extend1" extendedCase="_wY0Icn_AEeKXgIO5FbxCUw" extensionLocation="_Q1AmoH_EEeKXgIO5FbxCUw">
+        <condition xmi:id="_Q1S6hX_EEeKXgIO5FbxCUw" constrainedElement="_Q1S6hH_EEeKXgIO5FbxCUw">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_Q1S6hn_EEeKXgIO5FbxCUw">
+            <body>User has requested VacaSick</body>
+          </specification>
+        </condition>
+      </extend>
+      <extensionPoint xmi:id="_2S4oQH_CEeKXgIO5FbxCUw" name="point1"/>
+      <extensionPoint xmi:id="__a4HgH_CEeKXgIO5FbxCUw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_L_GvAH_BEeKXgIO5FbxCUw" name="DoesntClock">
+      <include xmi:id="_unH2dX_CEeKXgIO5FbxCUw" name="Include1" addition="_wY0Icn_AEeKXgIO5FbxCUw"/>
+      <include xmi:id="_NFjAY3_GEeKXgIO5FbxCUw" name="Include2" addition="_wDc8cn_AEeKXgIO5FbxCUw"/>
+      <extend xmi:id="_4tZbgH_FEeKXgIO5FbxCUw" name="Extend1" extendedCase="_wY0Icn_AEeKXgIO5FbxCUw" extensionLocation="_4tGgkH_FEeKXgIO5FbxCUw">
+        <condition xmi:id="_4tZbgX_FEeKXgIO5FbxCUw" constrainedElement="_4tZbgH_FEeKXgIO5FbxCUw">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_4tZbgn_FEeKXgIO5FbxCUw">
+            <body>User fails to clock</body>
+          </specification>
+        </condition>
+      </extend>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MHf2AH_BEeKXgIO5FbxCUw" name="RequestVacaSick">
+      <extend xmi:id="_NBtUJH_EEeKXgIO5FbxCUw" name="Extend1" extendedCase="_vqK5wH_AEeKXgIO5FbxCUw" extensionLocation="_NBbAQH_EEeKXgIO5FbxCUw">
+        <condition xmi:id="_NBtUJX_EEeKXgIO5FbxCUw" constrainedElement="_NBtUJH_EEeKXgIO5FbxCUw">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_NBtUJn_EEeKXgIO5FbxCUw">
+            <body>User wants to party</body>
+          </specification>
+        </condition>
+      </extend>
+      <extensionPoint xmi:id="_E80tIH_DEeKXgIO5FbxCUw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Q1tcIH_CEeKXgIO5FbxCUw" name="RemoveUser">
+      <include xmi:id="_rt6NpH_CEeKXgIO5FbxCUw" name="Include1" addition="_KpQ9cH_BEeKXgIO5FbxCUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SwjYMH_CEeKXgIO5FbxCUw" name="EditUser">
+      <include xmi:id="_rSutg3_CEeKXgIO5FbxCUw" name="Include1" addition="_KpQ9cH_BEeKXgIO5FbxCUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dmBs8H_CEeKXgIO5FbxCUw" name="DenyTS">
+      <include xmi:id="_7heNBH_CEeKXgIO5FbxCUw" name="Include1" addition="_wY0Icn_AEeKXgIO5FbxCUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iL5E0H_CEeKXgIO5FbxCUw" name="ApproveTS">
+      <include xmi:id="_7AqmBH_CEeKXgIO5FbxCUw" name="Include1" addition="_wY0Icn_AEeKXgIO5FbxCUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_UlH3sn_DEeKXgIO5FbxCUw" name="CFO"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XBp5oH_FEeKXgIO5FbxCUw" name="initiates" memberEnd="_XBp5oX_FEeKXgIO5FbxCUw _XBp5pH_FEeKXgIO5FbxCUw">
+      <ownedEnd xmi:id="_XBp5oX_FEeKXgIO5FbxCUw" name="grunt" type="_8kIzoH-xEeKmhvn8cyNh1Q" association="_XBp5oH_FEeKXgIO5FbxCUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBp5on_FEeKXgIO5FbxCUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XBp5o3_FEeKXgIO5FbxCUw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_XBp5pH_FEeKXgIO5FbxCUw" name="clockInOut" type="_vqK5wH_AEeKXgIO5FbxCUw" association="_XBp5oH_FEeKXgIO5FbxCUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBp5pX_FEeKXgIO5FbxCUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XBp5pn_FEeKXgIO5FbxCUw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pl7GFn_FEeKXgIO5FbxCUw" name="initiate" memberEnd="_pl7GF3_FEeKXgIO5FbxCUw _pl7GGn_FEeKXgIO5FbxCUw">
+      <ownedEnd xmi:id="_pl7GF3_FEeKXgIO5FbxCUw" name="elite" type="_9BYT0H-yEeKmhvn8cyNh1Q" association="_pl7GFn_FEeKXgIO5FbxCUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pl7GGH_FEeKXgIO5FbxCUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pl7GGX_FEeKXgIO5FbxCUw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_pl7GGn_FEeKXgIO5FbxCUw" name="reviewTimesheets" type="_wY0Icn_AEeKXgIO5FbxCUw" association="_pl7GFn_FEeKXgIO5FbxCUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pl7GG3_FEeKXgIO5FbxCUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pl7GHH_FEeKXgIO5FbxCUw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vMCaBn_FEeKXgIO5FbxCUw" name="initiates" memberEnd="_vMCaB3_FEeKXgIO5FbxCUw _vMCaCn_FEeKXgIO5FbxCUw">
+      <ownedEnd xmi:id="_vMCaB3_FEeKXgIO5FbxCUw" name="elite" type="_9BYT0H-yEeKmhvn8cyNh1Q" association="_vMCaBn_FEeKXgIO5FbxCUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vMCaCH_FEeKXgIO5FbxCUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vMCaCX_FEeKXgIO5FbxCUw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_vMCaCn_FEeKXgIO5FbxCUw" name="modifyUser" type="_KpQ9cH_BEeKXgIO5FbxCUw" association="_vMCaBn_FEeKXgIO5FbxCUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vMCaC3_FEeKXgIO5FbxCUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vMCaDH_FEeKXgIO5FbxCUw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
