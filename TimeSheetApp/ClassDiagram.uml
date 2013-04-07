@@ -7,41 +7,86 @@
       <ownedAttribute xmi:id="_f6KIIJGcEeKJkfI6m7M3jg" name="department"/>
       <ownedAttribute xmi:id="_hDwNcJGcEeKJkfI6m7M3jg" name="uniqueID"/>
       <ownedAttribute xmi:id="_iXFdkJGcEeKJkfI6m7M3jg" name="email"/>
+      <ownedAttribute xmi:id="_81ylsJ-tEeKzj7LAlJY_KQ" name="startDate"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_kKA7IJGZEeKJkfI6m7M3jg" name="Grunt">
       <generalization xmi:id="_kBxIoJGaEeKJkfI6m7M3jg" general="_hYo_sJGZEeKJkfI6m7M3jg"/>
       <ownedAttribute xmi:id="_9bPu0JGZEeKJkfI6m7M3jg" name="VacaTime/Days"/>
       <ownedAttribute xmi:id="_lD9TgJGcEeKJkfI6m7M3jg" name="sickTime/Days"/>
       <ownedAttribute xmi:id="_nAKhgJGcEeKJkfI6m7M3jg" name="wage"/>
-      <ownedAttribute xmi:id="_nyhykJGcEeKJkfI6m7M3jg" name="yearsWorked"/>
+      <ownedAttribute xmi:id="_nyhykJGcEeKJkfI6m7M3jg" name="yearsWorked()"/>
+      <ownedAttribute xmi:id="_n1PHkJ-uEeKzj7LAlJY_KQ" name="getHolidayPay()"/>
+      <ownedOperation xmi:id="_MnRE8J-vEeKzj7LAlJY_KQ" name="yearsWorked"/>
+      <ownedOperation xmi:id="_Mv-8EJ-vEeKzj7LAlJY_KQ" name="getHolidayPay"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_lbTj4JGZEeKJkfI6m7M3jg" name="Grunt+">
       <generalization xmi:id="_lQ-twJGaEeKJkfI6m7M3jg" general="_hYo_sJGZEeKJkfI6m7M3jg"/>
       <ownedAttribute xmi:id="_qG6QAJGcEeKJkfI6m7M3jg" name="VacaTime/Days"/>
-      <ownedAttribute xmi:id="_tMUhwJGcEeKJkfI6m7M3jg" name="SickTime/Days"/>
+      <ownedAttribute xmi:id="_tMUhwJGcEeKJkfI6m7M3jg" name="sickTime/Days"/>
       <ownedAttribute xmi:id="_usbpoJGcEeKJkfI6m7M3jg" name="wage"/>
-      <ownedAttribute xmi:id="_vp-P8JGcEeKJkfI6m7M3jg" name="yearsWorked"/>
+      <ownedAttribute xmi:id="_vp-P8JGcEeKJkfI6m7M3jg" name="yearsWorked()"/>
+      <ownedAttribute xmi:id="_ZYg_UJ-uEeKzj7LAlJY_KQ" name="availableVaca()"/>
+      <ownedAttribute xmi:id="_c9e64J-uEeKzj7LAlJY_KQ" name="availableSick()"/>
+      <ownedAttribute xmi:id="_gp_o4J-uEeKzj7LAlJY_KQ" name="addVaca()">
+        <qualifier xmi:id="_guWkcJ-uEeKzj7LAlJY_KQ" name="yearsWorked"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_iHbQMJ-uEeKzj7LAlJY_KQ" name="removeVaca()"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_lk7Z8JGZEeKJkfI6m7M3jg" name="Grunt"/>
+      <ownedOperation xmi:id="_54B-oJ-uEeKzj7LAlJY_KQ" name="availableVaca"/>
+      <ownedOperation xmi:id="_6-GO0J-uEeKzj7LAlJY_KQ" name="availableSick"/>
+      <ownedOperation xmi:id="_7MnzAJ-uEeKzj7LAlJY_KQ" name="addVaca"/>
+      <ownedOperation xmi:id="_7ZLoUJ-uEeKzj7LAlJY_KQ" name="removeVaca"/>
+      <ownedOperation xmi:id="_BEV0UJ-vEeKzj7LAlJY_KQ" name="yearsWorked"/>
+      <ownedOperation xmi:id="_e1178J-0EeKzj7LAlJY_KQ" name="addSick"/>
+      <ownedOperation xmi:id="_f8tdYJ-0EeKzj7LAlJY_KQ" name="removeSick"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_DwgnwJGaEeKJkfI6m7M3jg" name="TS">
-      <ownedAttribute xmi:id="_8XgSgJGcEeKJkfI6m7M3jg" name="weeks"/>
-      <ownedAttribute xmi:id="_9SWKIJGcEeKJkfI6m7M3jg" name="days"/>
-      <ownedAttribute xmi:id="_-FSC8JGcEeKJkfI6m7M3jg" name="hours"/>
-      <ownedAttribute xmi:id="_-zksUJGcEeKJkfI6m7M3jg" name="totaHours"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DwgnwJGaEeKJkfI6m7M3jg" name="TimeSheet" classifierBehavior="_kpgrEJ-xEeKzj7LAlJY_KQ">
+      <ownedAttribute xmi:id="_8XgSgJGcEeKJkfI6m7M3jg" name="week"/>
+      <ownedAttribute xmi:id="_-zksUJGcEeKJkfI6m7M3jg" name="totalHours()"/>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_kpgrEJ-xEeKzj7LAlJY_KQ" name="StateMachine">
+        <region xmi:id="_kpgrEZ-xEeKzj7LAlJY_KQ" name="Region">
+          <subvertex xmi:type="uml:FinalState" xmi:id="_mOcBgJ-xEeKzj7LAlJY_KQ" name="FinalState1"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_msHcAJ-xEeKzj7LAlJY_KQ" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_oRYJoJ-xEeKzj7LAlJY_KQ" name="Open"/>
+          <subvertex xmi:type="uml:State" xmi:id="_ol8rcJ-xEeKzj7LAlJY_KQ" name="Submitted"/>
+          <subvertex xmi:type="uml:State" xmi:id="_o5n1YJ-xEeKzj7LAlJY_KQ" name="Accepted"/>
+          <subvertex xmi:type="uml:State" xmi:id="_hmja8J-yEeKzj7LAlJY_KQ" name="Rejected"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_w2ehwJ-yEeKzj7LAlJY_KQ" name="" kind="choice"/>
+          <transition xmi:id="_tMb49J-yEeKzj7LAlJY_KQ" name="" kind="local" source="_msHcAJ-xEeKzj7LAlJY_KQ" target="_oRYJoJ-xEeKzj7LAlJY_KQ"/>
+          <transition xmi:id="_tprOlJ-yEeKzj7LAlJY_KQ" name="Transition2" source="_oRYJoJ-xEeKzj7LAlJY_KQ" target="_ol8rcJ-xEeKzj7LAlJY_KQ"/>
+          <transition xmi:id="_vLNSxJ-yEeKzj7LAlJY_KQ" name="submitTS()" kind="local" source="_oRYJoJ-xEeKzj7LAlJY_KQ" target="_ol8rcJ-xEeKzj7LAlJY_KQ"/>
+          <transition xmi:id="_Lwa_sJ-zEeKzj7LAlJY_KQ" name="" kind="local" source="_hmja8J-yEeKzj7LAlJY_KQ" target="_oRYJoJ-xEeKzj7LAlJY_KQ"/>
+          <transition xmi:id="_Qm2jJJ-zEeKzj7LAlJY_KQ" name="" kind="local" source="_ol8rcJ-xEeKzj7LAlJY_KQ" target="_w2ehwJ-yEeKzj7LAlJY_KQ"/>
+          <transition xmi:id="_RBa_RJ-zEeKzj7LAlJY_KQ" name="acceptTS()" kind="local" source="_w2ehwJ-yEeKzj7LAlJY_KQ" target="_o5n1YJ-xEeKzj7LAlJY_KQ"/>
+          <transition xmi:id="_RjlRJJ-zEeKzj7LAlJY_KQ" name="rejectTS()" kind="local" source="_w2ehwJ-yEeKzj7LAlJY_KQ" target="_hmja8J-yEeKzj7LAlJY_KQ"/>
+          <transition xmi:id="_SD6-FJ-zEeKzj7LAlJY_KQ" name="" kind="local" source="_o5n1YJ-xEeKzj7LAlJY_KQ" target="_mOcBgJ-xEeKzj7LAlJY_KQ"/>
+        </region>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_JzkOQJ-vEeKzj7LAlJY_KQ" name="totalHours"/>
+      <ownedOperation xmi:id="_itlJ4J-xEeKzj7LAlJY_KQ" name="submitTS"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_FKaZ8JGaEeKJkfI6m7M3jg" name="Notification"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_F-VKMJGaEeKJkfI6m7M3jg" name="CFO">
       <generalization xmi:id="_ls84E5GaEeKJkfI6m7M3jg" general="_hYo_sJGZEeKJkfI6m7M3jg"/>
       <generalization xmi:id="_mOVG05GaEeKJkfI6m7M3jg" general="_hYo_sJGZEeKJkfI6m7M3jg"/>
+      <ownedOperation xmi:id="_eO2UwJ-xEeKzj7LAlJY_KQ" name="grantGlobalDay"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_WLDQcJGaEeKJkfI6m7M3jg" name="Prophet">
       <generalization xmi:id="_nLJUY5GaEeKJkfI6m7M3jg" general="_hYo_sJGZEeKJkfI6m7M3jg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_XL2mIJGaEeKJkfI6m7M3jg" name="Elite">
       <generalization xmi:id="_nrKRMJGaEeKJkfI6m7M3jg" general="_hYo_sJGZEeKJkfI6m7M3jg"/>
+      <ownedOperation xmi:id="_WLLZQJ-xEeKzj7LAlJY_KQ" name="permitHolidayPay"/>
+      <ownedOperation xmi:id="_YfUmIJ-xEeKzj7LAlJY_KQ" name="denyHolidayPay"/>
+      <ownedOperation xmi:id="_Z53RgJ-xEeKzj7LAlJY_KQ" name="permitSickPay"/>
+      <ownedOperation xmi:id="_aD_d4J-xEeKzj7LAlJY_KQ" name="denySickPay"/>
+      <ownedOperation xmi:id="_jEzPsJ-0EeKzj7LAlJY_KQ" name="acceptTS"/>
+      <ownedOperation xmi:id="_kBZa0J-0EeKzj7LAlJY_KQ" name="rejectTS"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_aU2-cJGaEeKJkfI6m7M3jg" name="DeptTS">
       <generalization xmi:id="_Z-LuY5GbEeKJkfI6m7M3jg" general="_dO1cQJGaEeKJkfI6m7M3jg"/>
+      <ownedAttribute xmi:id="_thTSgJ-uEeKzj7LAlJY_KQ" name="yearsWorked"/>
+      <ownedOperation xmi:id="_FFCCkJ-vEeKzj7LAlJY_KQ" name="submitDeptTS"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_cGAL8JGaEeKJkfI6m7M3jg" name="MasterTS">
       <generalization xmi:id="_Za3l8JGbEeKJkfI6m7M3jg" general="_dO1cQJGaEeKJkfI6m7M3jg"/>
@@ -185,6 +230,75 @@
       <ownedEnd xmi:id="_lgf7DZGbEeKJkfI6m7M3jg" name="tS" type="_DwgnwJGaEeKJkfI6m7M3jg" association="_lgf7CZGbEeKJkfI6m7M3jg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lgf7DpGbEeKJkfI6m7M3jg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lgf7D5GbEeKJkfI6m7M3jg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YBFu0J-tEeKzj7LAlJY_KQ" name="TSEntry">
+      <ownedAttribute xmi:id="_iuGrIJ-tEeKzj7LAlJY_KQ" name="holidayPay"/>
+      <ownedAttribute xmi:id="_05_MwJ-tEeKzj7LAlJY_KQ" name="sickPay"/>
+      <ownedAttribute xmi:id="_5gYwIJ-tEeKzj7LAlJY_KQ" name="vacaPay"/>
+      <ownedAttribute xmi:id="_-FSC8JGcEeKJkfI6m7M3jg" name="hours"/>
+      <ownedAttribute xmi:id="_9SWKIJGcEeKJkfI6m7M3jg" name="date"/>
+      <ownedAttribute xmi:id="_566r0J-0EeKzj7LAlJY_KQ" name="start"/>
+      <ownedAttribute xmi:id="_7QxrgJ-0EeKzj7LAlJY_KQ" name="stop"/>
+      <ownedAttribute xmi:id="_8cqP0J-0EeKzj7LAlJY_KQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xCPCoJ-uEeKzj7LAlJY_KQ" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2N7rcJ-uEeKzj7LAlJY_KQ" name="TSAudit">
+      <ownedAttribute xmi:id="_ZWWmsJ-vEeKzj7LAlJY_KQ" name="timeStamp"/>
+      <ownedAttribute xmi:id="_fRTiMJ-vEeKzj7LAlJY_KQ" name="action"/>
+      <ownedAttribute xmi:id="_hhT18J-vEeKzj7LAlJY_KQ" name="actionUser"/>
+      <ownedAttribute xmi:id="_jGRBkJ-vEeKzj7LAlJY_KQ" name="timeSheet"/>
+      <ownedAttribute xmi:id="_uw5qcJ-0EeKzj7LAlJY_KQ" name="TSstatus"/>
+      <ownedOperation xmi:id="_3KCHUJ-uEeKzj7LAlJY_KQ" name="availableVaca"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_p3KRIJ-wEeKzj7LAlJY_KQ" name="A_&lt;entry>_&lt;tS>" memberEnd="_p3KRIZ-wEeKzj7LAlJY_KQ _p3KRJJ-wEeKzj7LAlJY_KQ">
+      <ownedEnd xmi:id="_p3KRIZ-wEeKzj7LAlJY_KQ" name="entry" type="_YBFu0J-tEeKzj7LAlJY_KQ" association="_p3KRIJ-wEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p3KRIp-wEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p3KRI5-wEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_p3KRJJ-wEeKzj7LAlJY_KQ" name="tS" type="_DwgnwJGaEeKJkfI6m7M3jg" association="_p3KRIJ-wEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p3KRJZ-wEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p3KRJp-wEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-QQRMJ-wEeKzj7LAlJY_KQ" name="A_&lt;user>_&lt;tSAudit>" memberEnd="_-QQRMZ-wEeKzj7LAlJY_KQ _-QQRNJ-wEeKzj7LAlJY_KQ">
+      <ownedEnd xmi:id="_-QQRMZ-wEeKzj7LAlJY_KQ" name="user" type="_hYo_sJGZEeKJkfI6m7M3jg" association="_-QQRMJ-wEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-QQRMp-wEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-QQRM5-wEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_-QQRNJ-wEeKzj7LAlJY_KQ" name="tSAudit" type="_2N7rcJ-uEeKzj7LAlJY_KQ" association="_-QQRMJ-wEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-QQRNZ-wEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-QQRNp-wEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_--mk-J-wEeKzj7LAlJY_KQ" name="A_&lt;tSAudit>_&lt;tS>" memberEnd="_--mk-Z-wEeKzj7LAlJY_KQ _--mk_J-wEeKzj7LAlJY_KQ">
+      <ownedEnd xmi:id="_--mk-Z-wEeKzj7LAlJY_KQ" name="tSAudit" type="_2N7rcJ-uEeKzj7LAlJY_KQ" association="_--mk-J-wEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_--mk-p-wEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_--mk-5-wEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_--mk_J-wEeKzj7LAlJY_KQ" name="tS" type="_DwgnwJGaEeKJkfI6m7M3jg" association="_--mk-J-wEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_--mk_Z-wEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_--mk_p-wEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IetCM5-xEeKzj7LAlJY_KQ" name="A_&lt;tSEntry>_&lt;timeSheet>" memberEnd="_IetCNJ-xEeKzj7LAlJY_KQ _IetCN5-xEeKzj7LAlJY_KQ">
+      <ownedEnd xmi:id="_IetCNJ-xEeKzj7LAlJY_KQ" name="tSEntry" type="_YBFu0J-tEeKzj7LAlJY_KQ" association="_IetCM5-xEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IetCNZ-xEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IetCNp-xEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_IetCN5-xEeKzj7LAlJY_KQ" name="timeSheet" type="_DwgnwJGaEeKJkfI6m7M3jg" aggregation="shared" association="_IetCM5-xEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IetCOJ-xEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IetCOZ-xEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Jjk_mp-xEeKzj7LAlJY_KQ" name="A_&lt;tSEntry>_&lt;timeSheet>_2" memberEnd="_Jjk_m5-xEeKzj7LAlJY_KQ _Jjk_np-xEeKzj7LAlJY_KQ">
+      <ownedEnd xmi:id="_Jjk_m5-xEeKzj7LAlJY_KQ" name="tSEntry" type="_YBFu0J-tEeKzj7LAlJY_KQ" association="_Jjk_mp-xEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jjk_nJ-xEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jjk_nZ-xEeKzj7LAlJY_KQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_Jjk_np-xEeKzj7LAlJY_KQ" name="timeSheet" type="_DwgnwJGaEeKJkfI6m7M3jg" aggregation="shared" association="_Jjk_mp-xEeKzj7LAlJY_KQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jjk_n5-xEeKzj7LAlJY_KQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jjk_oJ-xEeKzj7LAlJY_KQ" value="1"/>
       </ownedEnd>
     </packagedElement>
   </packagedElement>
