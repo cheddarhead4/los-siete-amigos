@@ -42,8 +42,6 @@
     </control>
     <control controlID="75" controlTypeID="com.balsamiq.mockups::Button" x="959" y="202" w="-1" h="-1" measuredW="108" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>CFO%203%26bm%3BCFO%203.bmml%26bm%3BCFO%203.bmml%26bm%3BCFO%203.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22800%2C202%2C908%2C226%22%20href%3D%22CFO%25203.bmml%22%20alt%3D%22CFO%203%22%20id%3D%2275%22/%3E</map>
         <text>Create%20Holiday</text>
       </controlProperties>
     </control>
@@ -52,79 +50,34 @@
         <text>Export</text>
       </controlProperties>
     </control>
-    <control controlID="100" controlTypeID="com.balsamiq.mockups::DataGrid" x="485" y="266" w="422" h="178" measuredW="366" measuredH="178" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <align>center</align>
-        <alternateRowColor>15658734</alternateRowColor>
-        <bold>true</bold>
-        <borderStyle>square</borderStyle>
-        <hasHeader>true</hasHeader>
-        <hLines>true</hLines>
-        <rowHeight>32</rowHeight>
-        <text>Day%2C%20Time%20In%2C%20Time%20Out%2C%20Lunch%20In%2C%20Lunch%20Out%0AMonday%2C%207%3A05%20a.m%2C%205%3A12%20p.m%2C%2011%3A30%20a.m%2C%2012%3A30%20p.m%0ATuesday%2C%207%3A00%20a.m%2C%204%3A56%20p.m%2C%2011%3A35%20a.m%2C%2012%3A25%20p.m%0AWednesday%2C%207%3A13%20a.m%2C%20%2C%2011%3A27%20a.m%2C%20%0AThursday%0AFriday%0A%7B15l%2C%2010%2C%2010%2C10%2C10%7D</text>
-        <verticalScrollbar>false</verticalScrollbar>
-        <vLines>true</vLines>
-      </controlProperties>
-    </control>
-    <control controlID="101" controlTypeID="com.balsamiq.mockups::Label" x="655" y="245" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::Label" x="655" y="245" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <text>Tyler%20Canup%20</text>
       </controlProperties>
     </control>
-    <control controlID="102" controlTypeID="com.balsamiq.mockups::TextInput" x="749" y="459" w="-1" h="-1" measuredW="138" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <text>Total%20Hours%20Worked%3A%20</text>
-      </controlProperties>
-    </control>
-    <control controlID="103" controlTypeID="com.balsamiq.mockups::TextInput" x="881" y="459" w="-1" h="-1" measuredW="26" measuredH="24" zOrder="11" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>0</borderColor>
-        <text>25</text>
-      </controlProperties>
-    </control>
-    <control controlID="104" controlTypeID="com.balsamiq.mockups::Label" x="378" y="498" w="-1" h="-1" measuredW="70" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <text>Comments%3A</text>
-      </controlProperties>
-    </control>
-    <control controlID="105" controlTypeID="com.balsamiq.mockups::Label" x="448" y="498" w="-1" h="-1" measuredW="149" measuredH="37" zOrder="13" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>false</bold>
-        <text>%20Doesn%27t%20get%20paid%20enough%20%5Cr%20Coffee-maker%20is%20broken</text>
-      </controlProperties>
-    </control>
-    <control controlID="112" controlTypeID="com.balsamiq.mockups::Icon" x="1038" y="535" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Icon" x="1038" y="535" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
         <color>10066329</color>
         <icon>FlagIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="113" controlTypeID="com.balsamiq.mockups::Icon" x="1005" y="535" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Icon" x="1005" y="535" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <color>13369344</color>
+        <color>6710886</color>
         <icon>PortletHelpIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="114" controlTypeID="com.balsamiq.mockups::Alert" x="542" y="296" w="304" h="139" measuredW="200" measuredH="164" zOrder="16" locked="false" isInGroup="-1">
-      <controlProperties>
-        <hrefs>%2CCFO%208%26bm%3BCFO%208.bmml%26bm%3BCFO%208.bmml%26bm%3BCFO%208.bmml</hrefs>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22540%2C385%2C677%2C425%22%20href%3D%22CFO%25208.bmml%22%20alt%3D%22CFO%208%22%20id%3D%22114%22/%3E%0A</map>
-        <text>Alert%0AWould%20you%20like%20to%20approve%20holiday%20pay%20for%20the%20following%20dates%3F%5Cr12/24/2013%20-%2012/25/2013%0ANo%2C%20Yes</text>
-      </controlProperties>
-    </control>
-    <control controlID="115" controlTypeID="com.balsamiq.mockups::Label" x="188" y="217" w="-1" h="-1" measuredW="123" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Label" x="188" y="217" w="-1" h="-1" measuredW="123" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Company%20Employees</text>
       </controlProperties>
     </control>
-    <control controlID="116" controlTypeID="__group__" x="450" y="578" w="492" h="25" measuredW="492" measuredH="25" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="115" controlTypeID="__group__" x="450" y="578" w="492" h="25" measuredW="492" measuredH="25" zOrder="12" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="397" h="24" measuredW="397" measuredH="24" zOrder="0" locked="false" isInGroup="116">
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="397" h="24" measuredW="397" measuredH="24" zOrder="0" locked="false" isInGroup="115">
           <groupChildrenDescriptors>
             <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="129" y="0" w="-1" h="-1" measuredW="136" measuredH="24" zOrder="0" locked="false" isInGroup="0">
               <controlProperties>
@@ -143,12 +96,18 @@
             </control>
           </groupChildrenDescriptors>
         </control>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="412" y="0" w="80" h="25" measuredW="51" measuredH="24" zOrder="1" locked="false" isInGroup="116">
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="412" y="0" w="80" h="25" measuredW="51" measuredH="24" zOrder="1" locked="false" isInGroup="115">
           <controlProperties>
             <text>Audit</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::List" x="529" y="281" w="331" h="229" measuredW="100" measuredH="215" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <text>04/07/13%097%3A01%20a.m%09%09Entered%20%22Time%20In%22%0A04/07/13%0911%3A09%20a.m%09Entered%20%22Lunch%20Out%22%0A04/07/13%0912%3A02%20p.m%09Entered%20%22Lunch%20In%22%0A04/07/13%095%3A00%20p.m%09Entered%20%22Time%20Out%22%09%0A04/08/13%097%3A00%20a.m%09Entered%20%22Time%20In%22%0A04/08/13%0911%3A25%20a.m%09Entered%20%22Lunch%20Out%22%0A04/08/13%0912%3A37%20p.m%09Entered%20%22Lunch%20In%22%0A4/08/13%092%3A43%20p.m%09Requested%20Vacation%0A4/08/13%094%3A56%20p.m%09Entered%20%22Time%20Out%22%0A4/09/13%096%3A34%20a.m%09Vacation%20Denied</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>
