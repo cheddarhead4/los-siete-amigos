@@ -1,0 +1,56 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1449" measuredH="653" mockupW="1304" mockupH="653">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="145" y="0" w="921" h="653" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ReTrans%20TimeSheet%20Web%20App%0Ahttp%3A//re-trans.com/timesheet/home</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="149" y="72" w="913" h="76" measuredW="950" measuredH="76" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../assets/retrans%2520header.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="574" y="378" w="63" h="24" measuredW="63" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="1076" y="29" w="-1" h="-1" measuredW="373" measuredH="91" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Grunt%20Screen%5Cr%20Dropdown%20Selection</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::List" x="849" y="402" w="-1" h="-1" measuredW="100" measuredH="152" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <alternateRowColor>15658734</alternateRowColor>
+        <color>16777215</color>
+        <text>7%3A00%20a.m%0A7%3A05%20a.m%0A7%3A10%20a.m%0A..%0A..%0A..%0A..</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="527" y="299" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Time%20In%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="527" y="335" w="-1" h="-1" measuredW="62" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Time%20Out%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::ComboBox" x="602" y="295" w="-1" h="-1" measuredW="81" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>7%3A00%20a.m</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::ComboBox" x="602" y="333" w="-1" h="-1" measuredW="80" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>5%3A00%20p.m</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Arrow" x="699" y="300" w="-1" h="-1" measuredW="150" measuredH="100" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

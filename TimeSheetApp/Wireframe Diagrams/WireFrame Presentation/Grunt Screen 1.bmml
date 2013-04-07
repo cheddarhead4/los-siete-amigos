@@ -1,0 +1,41 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1066" measuredH="653" mockupW="921" mockupH="653">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="145" y="0" w="921" h="653" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ReTrans%20TimeSheet%20Web%20App%0Ahttp%3A//re-trans.com/timesheet/home</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="149" y="72" w="913" h="76" measuredW="950" measuredH="76" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../assets/retrans%2520header.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="556" y="378" w="98" h="24" measuredW="97" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Grunt%20Screen%202%26bm%3BGrunt%20Screen%202.bmml%26bm%3BGrunt%20Screen%202.bmml%26bm%3BGrunt%20Screen%202.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22411%2C378%2C509%2C402%22%20href%3D%22Grunt%2520Screen%25202.bmml%22%20alt%3D%22Grunt%20Screen%202%22%20id%3D%222%22/%3E</map>
+        <text>Clock%20In/Out</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="527" y="299" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Time%20In%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="527" y="335" w="-1" h="-1" measuredW="62" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Time%20Out%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextInput" x="596" y="298" w="-1" h="-1" measuredW="79" measuredH="23" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="596" y="334" w="-1" h="-1" measuredW="79" measuredH="23" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

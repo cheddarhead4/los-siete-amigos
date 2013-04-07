@@ -1,0 +1,217 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1346" measuredH="653" mockupW="1187" mockupH="653">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="159" y="0" w="921" h="653" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ReTrans%20TimeSheet%20Web%20App%0Ahttp%3A//re-trans.com/timesheet</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="163" y="73" w="913" h="76" measuredW="950" measuredH="76" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../assets/retrans%2520header.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Title" x="1109" y="30" w="-1" h="-1" measuredW="220" measuredH="91" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Elite%20%5CrDelete%20User</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::List" x="173" y="238" w="153" h="325" measuredW="100" measuredH="173" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Michael%20Bartz%0ADavid%20Blix%0ATyler%20Canup%0ADavid%20Campisi%0ACody%20Fernandez%0AEric%20Fesmire%0ADrew%20Garth%0ATrent%20Scott</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="180" y="217" w="-1" h="-1" measuredW="139" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Department%20Employees</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextInput" x="173" y="281" w="153" h="-1" measuredW="79" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>13421772</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="655" y="217" w="-1" h="-1" measuredW="83" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Employee%20Info</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextArea" x="326" y="238" w="741" h="325" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Button" x="627" y="578" w="-1" h="-1" measuredW="108" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Save%20Changes</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="368" y="281" w="-1" h="-1" measuredW="98" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Employee%20Name%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="368" y="314" w="-1" h="-1" measuredW="77" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Date%20of%20Birth%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::TextInput" x="499" y="279" w="241" h="-1" measuredW="82" measuredH="24" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tyler%20Canup</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::DateChooser" x="499" y="314" w="128" h="-1" measuredW="123" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>3/28/1991%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Label" x="368" y="350" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Address%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::TextInput" x="499" y="348" w="237" h="-1" measuredW="140" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <text>8960%20Brunswick%20Road</text>
+      </controlProperties>
+    </control>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Label" x="595" y="376" w="-1" h="-1" measuredW="49" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Address</text>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::TextInput" x="735" y="348" w="158" h="-1" measuredW="91" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>Millington%2C%20TN</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Label" x="788" y="376" w="-1" h="-1" measuredW="61" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>City%2C%20State</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::TextInput" x="893" y="348" w="111" h="-1" measuredW="49" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>38053</text>
+      </controlProperties>
+    </control>
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::Label" x="938" y="376" w="-1" h="-1" measuredW="22" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ZIP</text>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::ButtonBar" x="581" y="244" w="-1" h="-1" measuredW="200" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Personal%20Info%2C%20Account%20Info</text>
+      </controlProperties>
+    </control>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::Label" x="368" y="410" w="-1" h="-1" measuredW="89" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Phone%20Number%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Label" x="368" y="460" w="-1" h="-1" measuredW="121" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Emergency%20Contact%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::Label" x="368" y="510" w="-1" h="-1" measuredW="87" measuredH="21" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Email%20Address%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::TextInput" x="499" y="408" w="237" h="-1" measuredW="104" measuredH="24" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <text>%28901%29%20829-4535</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::TextInput" x="499" y="458" w="237" h="-1" measuredW="208" measuredH="24" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <text>%28901%29%20233-8435%20/%20%28901%29%20385-7313</text>
+      </controlProperties>
+    </control>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::TextInput" x="499" y="508" w="237" h="-1" measuredW="139" measuredH="24" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <text>dtcanup@retrans.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::TextInput" x="735" y="408" w="237" h="-1" measuredW="105" measuredH="24" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <text>%28901%29%20239-2654</text>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="602" y="431" w="-1" h="-1" measuredW="34" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Label" x="836" y="431" w="-1" h="-1" measuredW="23" measuredH="21" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cell</text>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Label" x="558" y="481" w="-1" h="-1" measuredW="122" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Number%20%28Cell/Home%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::TextInput" x="735" y="458" w="237" h="-1" measuredW="168" measuredH="24" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <text>David%20E%20Canup%2C%20Jr.%20/%20Father</text>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::Label" x="806" y="481" w="-1" h="-1" measuredW="95" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Name%20/%20Relation</text>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="__group__" x="197" y="578" w="104" h="24" measuredW="104" measuredH="24" zOrder="33" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="45" measuredH="24" zOrder="0" locked="false" isInGroup="118">
+          <controlProperties>
+            <text>Edit</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="60" y="0" w="-1" h="-1" measuredW="44" measuredH="24" zOrder="1" locked="false" isInGroup="118">
+          <controlProperties>
+            <text>Add</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Button" x="960" y="245" w="-1" h="-1" measuredW="93" measuredH="24" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delete%20User</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Arrow" x="1053" y="265" w="93" h="37" measuredW="150" measuredH="100" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Alert" x="1146" y="302" w="-1" h="-1" measuredW="200" measuredH="133" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C</hrefs>
+        <text>Alert%0AAre%20you%20sure%20you%20want%20to%20delete%20this%20user%3F%0ANo%2C%20Yes</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

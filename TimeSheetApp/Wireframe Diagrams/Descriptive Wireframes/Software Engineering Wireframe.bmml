@@ -1,0 +1,47 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1080" measuredH="653" mockupW="921" mockupH="653">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="159" y="0" w="921" h="653" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ReTrans%20TimeSheet%20Web%20App%0Ahttp%3A//re-trans.com/timesheet</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="163" y="73" w="913" h="76" measuredW="950" measuredH="76" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../assets/retrans%2520header.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="__group__" x="540" y="212" w="159" h="146" measuredW="159" measuredH="146" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="20" w="159" h="-1" measuredW="79" measuredH="23" zOrder="0" locked="false" isInGroup="19">
+          <controlProperties>
+            <state>up</state>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="75" w="159" h="-1" measuredW="79" measuredH="23" zOrder="1" locked="false" isInGroup="19">
+          <controlProperties>
+            <state>up</state>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="62" measuredH="21" zOrder="2" locked="false" isInGroup="19">
+          <controlProperties>
+            <text>Username</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="0" y="54" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="3" locked="false" isInGroup="19">
+          <controlProperties>
+            <text>Password</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="49" y="122" w="-1" h="-1" measuredW="54" measuredH="24" zOrder="4" locked="false" isInGroup="19">
+          <controlProperties>
+            <menuIcon>false</menuIcon>
+            <state>up</state>
+            <text>Enter</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

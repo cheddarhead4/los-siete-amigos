@@ -1,0 +1,72 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1080" measuredH="653" mockupW="921" mockupH="653">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="159" y="0" w="921" h="653" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ReTrans%20TimeSheet%20Web%20App%0Ahttp%3A//re-trans.com/timesheet</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="163" y="73" w="913" h="76" measuredW="950" measuredH="76" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../assets/retrans%2520header.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::List" x="173" y="238" w="153" h="325" measuredW="100" measuredH="173" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C%2CElite%202%26bm%3BElite%202.bmml%26bm%3BElite%202.bmml%26bm%3BElite%202.bmml%2C%2C%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2214%2C282%2C167%2C303%22%20href%3D%22Elite%25202.bmml%22%20alt%3D%22Elite%202%22%20id%3D%227%22/%3E%0A</map>
+        <text>Michael%20Bartz%0ADavid%20Blix%0ATyler%20Canup%0ADavid%20Campisi%0ACody%20Fernandez%0AEric%20Fesmire%0ADrew%20Garth%0ATrent%20Scott</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="180" y="217" w="-1" h="-1" measuredW="139" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Department%20Employees</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="655" y="217" w="-1" h="-1" measuredW="83" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Employee%20Info</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextArea" x="326" y="238" w="741" h="325" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Icon" x="1038" y="535" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>13421772</color>
+        <icon>FlagIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="__group__" x="498" y="578" w="397" h="24" measuredW="397" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="129" y="0" w="-1" h="-1" measuredW="136" measuredH="24" zOrder="0" locked="false" isInGroup="62">
+          <controlProperties>
+            <text>Approve%20Timesheet</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="280" y="0" w="-1" h="-1" measuredW="117" measuredH="24" zOrder="1" locked="false" isInGroup="62">
+          <controlProperties>
+            <text>Deny%20Timesheet</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="114" measuredH="24" zOrder="2" locked="false" isInGroup="62">
+          <controlProperties>
+            <text>Manually%20Adjust</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Button" x="197" y="578" w="-1" h="-1" measuredW="45" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edit</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Button" x="257" y="578" w="-1" h="-1" measuredW="44" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

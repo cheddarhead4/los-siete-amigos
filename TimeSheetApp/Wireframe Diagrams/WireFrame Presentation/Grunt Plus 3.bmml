@@ -1,0 +1,57 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1066" measuredH="653" mockupW="921" mockupH="653">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="145" y="0" w="921" h="653" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ReTrans%20TimeSheet%20Web%20App%0Ahttp%3A//re-trans.com/timesheet/home</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="149" y="72" w="913" h="76" measuredW="950" measuredH="76" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../assets/retrans%2520header.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::DataGrid" x="394" y="198" w="422" h="178" measuredW="370" measuredH="178" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <alternateRowColor>15658734</alternateRowColor>
+        <bold>true</bold>
+        <borderStyle>square</borderStyle>
+        <hasHeader>true</hasHeader>
+        <hLines>true</hLines>
+        <rowHeight>32</rowHeight>
+        <text>Day%2C%20Time%20In%2C%20Time%20Out%2C%20Lunch%20In%2C%20Lunch%20Out%0AMonday%2C%207%3A00%20a.m%20%2C%20%2C%2011%3A30%20a.m%2C%20%0ATuesday%2C%20%2C%20%2C%20%2C%20%0AWednesday%2C%20%2C%20%2C%20%2C%20%0AThursday%0AFriday%0A%7B15l%2C%2010%2C%2010%2C10%2C10%7D</text>
+        <verticalScrollbar>false</verticalScrollbar>
+        <vLines>true</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="563" y="391" w="-1" h="-1" measuredW="84" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Save%20Time</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="518" y="430" w="-1" h="-1" measuredW="174" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit%20Weekly%20Timesheet</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Button" x="543" y="546" w="-1" h="-1" measuredW="127" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Request%20Time%20Off</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::TextInput" x="394" y="487" w="422" h="-1" measuredW="79" measuredH="23" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::IconLabel" x="1003" y="155" w="-1" h="-1" measuredW="48" measuredH="63" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>16777215</color>
+        <href>Grunt%20Plus%204%26bm%3BGrunt%20Plus%204.bmml%26bm%3BGrunt%20Plus%204.bmml%26bm%3BGrunt%20Plus%204.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22858%2C155%2C906%2C218%22%20href%3D%22Grunt%2520Plus%25204.bmml%22%20alt%3D%22Grunt%20Plus%204%22%20id%3D%2226%22/%3E</map>
+        <text>%20</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
